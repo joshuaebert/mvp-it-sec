@@ -13,5 +13,10 @@ sudo a2enmod proxy
 sudo a2enmod proxy_http
 ```
 
+Restart the Webserver
+```
+systemctl restart apache2
+```
+
 ## Compiling & Running
 I used **corretto 11**. Ensure that your JDK/JRE Version is the same or newer
